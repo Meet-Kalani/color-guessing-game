@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body,
+button,
+select{
+    font-family: "Kode Mono", monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.option-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.red-btn{
+    background-color: red;
+    color: white;
+}
+
+.green-btn{
+    background-color: green;
+    color: white;
+}
+
+.blue-btn{
+    background-color: blue;
+    color: #fff;
+}
+
+.black-btn{
+    background-color: black;
+    color: #fff;
+    display: none;
+}
+
+.brown-btn{
+    background-color: brown;
+    color: #fff;
+    display: none;
+}
+
+.message {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 18px;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.difficulty {
+    margin-top: 20px;
+}
