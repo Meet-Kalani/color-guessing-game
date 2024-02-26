@@ -1,110 +1,112 @@
 /* Resetting default setting */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* General Styling */
 body,
 button,
-select{
-    font-family: "Kode Mono", monospace;
+select {
+  font-family: "Kode Mono", monospace;
 }
 
 /* Main styling */
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #game-container {
-    text-align: center;
+  text-align: center;
 }
 
 .color-box {
-    width: 200px;
-    height: 200px;
-    margin: 20px auto;
-    border: 2px solid black;
-    border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 12px;
 }
 
 .options .option-btn {
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    transition: 200ms;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: 200ms;
 }
 
-.red-btn{
-    background-color: red;
-    color: white;
+.red-btn {
+  background-color: red;
+  color: white;
 }
 
-.red-btn:hover{
-    background-color: rgb(210, 17, 17);
+.red-btn:hover {
+  background-color: rgb(210, 17, 17);
 }
 
-.green-btn{
-    background-color: green;
-    color: white;
+.green-btn {
+  background-color: green;
+  color: white;
 }
 
-.green-btn:hover{
-    background-color: rgb(12, 88, 12);
+.green-btn:hover {
+  background-color: rgb(12, 88, 12);
 }
 
-.blue-btn{
-    background-color: blue;
-    color: #fff;
+.blue-btn {
+  background-color: blue;
+  color: #fff;
 }
 
-.blue-btn:hover{
-    background-color: rgb(0, 89, 255);
+.blue-btn:hover {
+  background-color: rgb(0, 89, 255);
 }
 
-.black-btn{
-    background-color: black;
-    color: #fff;
-    display: none;
+.black-btn {
+  background-color: black;
+  color: #fff;
 }
 
-.black-btn:hover{
-    background-color: rgb(74, 68, 68);
+.black-btn:hover {
+  background-color: rgb(74, 68, 68);
 }
 
-.brown-btn{
-    background-color: brown;
-    color: #fff;
-    display: none;
+.brown-btn {
+  background-color: brown;
+  color: #fff;
 }
 
-.brown-btn:hover{
-    background-color: rgb(122, 42, 42);
+.brown-btn:hover {
+  background-color: rgb(122, 42, 42);
 }
 
 .message {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .score {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .reset-btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
 }
 
 .difficulty {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.d-none {
+  display: none;
 }

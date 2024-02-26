@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Guessing Game</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/media/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/media/favicon.ico" />
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- custom stylesheet -->
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-<body>
+  <body>
     <main id="game-container">
-        <h1>Color Guessing Game</h1>
-        <div class="color-box"></div>
-        <div class="options">
-            <button class="option-btn red-btn">Red</button>
-            <button class="option-btn green-btn">Green</button>
-            <button class="option-btn blue-btn">Blue</button>
-            <button class="option-btn black-btn">Black</button>
-            <button class="option-btn brown-btn">Brown</button>
-        </div>
-        <div class="message">Welcome!</div>
-        <div class="score">Score: <span class="score-value">0</span></div>
-        <button class="reset-btn">Reset Game</button>
-        <div class="difficulty">
-            <label for="difficulty-level">Select Difficulty:</label>
-            <select class="difficulty-level" id="difficulty-level" name="difficulty-level">
-                <option value="easy">Easy</option>
-                <option value="medium">Medium</option>
-                <option value="hard">Hard</option>
-            </select>
-        </div>
+      <h1>Color Guessing Game</h1>
+      <div class="color-box"></div>
+      <div class="options">
+        <button class="option-btn red-btn">Red</button>
+        <button class="option-btn green-btn">Green</button>
+        <button class="option-btn blue-btn">Blue</button>
+        <button class="option-btn black-btn d-none">Black</button>
+        <button class="option-btn brown-btn d-none">Brown</button>
+      </div>
+      <div class="message">Welcome!</div>
+      <div class="score">Score: <span class="score-value">0</span></div>
+      <button class="reset-btn">Reset Game</button>
+      <div class="difficulty">
+        <label for="difficulty-level">Select Difficulty:</label>
+        <select
+          class="difficulty-level"
+          id="difficulty-level"
+          name="difficulty-level"
+        >
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
     </main>
 
     <!-- custom script -->
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
