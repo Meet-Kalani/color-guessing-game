@@ -79,7 +79,8 @@ function btnVisibilityToggler(element, propertyValue) {
 }
 
 function resetGame() {
-  scoreValue.innerText = score = 0;
+  scoreValue.innerText = 0;
+  score = 0;
   message.innerText = "Welcome!";
   setColorBoxColor("white");
 }

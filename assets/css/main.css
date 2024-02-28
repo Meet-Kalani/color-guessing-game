@@ -28,7 +28,7 @@ body {
   width: 200px;
   height: 200px;
   margin: 20px auto;
-  border: 2px solid black;
+  border: 2px solid #000000;
   border-radius: 12px;
 }
 
@@ -42,48 +42,48 @@ body {
 }
 
 .red-btn {
-  background-color: red;
-  color: white;
+  background-color: #ff0000;
+  color: #ffffff;
 }
 
 .red-btn:hover {
-  background-color: rgb(210, 17, 17);
+  background-color: #d21111;
 }
 
 .green-btn {
-  background-color: green;
-  color: white;
+  background-color: #008000;
+  color: #ffffff;
 }
 
 .green-btn:hover {
-  background-color: rgb(12, 88, 12);
+  background-color: #0c580c;
 }
 
 .blue-btn {
-  background-color: blue;
+  background-color: #0000ff;
   color: #fff;
 }
 
 .blue-btn:hover {
-  background-color: rgb(0, 89, 255);
+  background-color: #0059ff;
 }
 
 .black-btn {
-  background-color: black;
+  background-color: #000000;
   color: #fff;
 }
 
 .black-btn:hover {
-  background-color: rgb(74, 68, 68);
+  background-color: #4a4444;
 }
 
 .brown-btn {
-  background-color: brown;
+  background-color: #a52a2a;
   color: #fff;
 }
 
 .brown-btn:hover {
-  background-color: rgb(122, 42, 42);
+  background-color: #7a2a2a;
 }
 
 .message {
